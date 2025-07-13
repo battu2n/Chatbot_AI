@@ -1,0 +1,9 @@
+requirements.txt                 
+langchain
+langchain-groq
+python-dotenv
+streamlit
+requests
+colorlog
+Ipython
+display-markdown
