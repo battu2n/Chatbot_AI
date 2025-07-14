@@ -64,7 +64,7 @@ Input: i want to buy tundra
 Output: A full description of the Toyota Tundra including engine options, towing capacity, off-road features, reliability, and resale value.
 
 👤 Author
-Sravan Kumar Kancharla
+Nagavardhan Battu
 🔗 GitHub
 🛠 Open to contributions and feedback!
 
