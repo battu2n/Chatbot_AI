@@ -3,7 +3,7 @@ This project is an AI-powered car sales assistant built using LangGraph, Groq, a
 
 # 🚗 AI Car Sales Assistant
 
-This project is an AI-powered car sales assistant built using [LangGraph](https://github.com/langchain-ai/langgraph), [Groq](https://groq.com/), and Python. It acts as a virtual car salesperson that can provide detailed information about specific Toyota models such as Camry, Corolla, RAV4, Highlander, Sienna, and Tundra.
+This project is an AI-powered car sales assistant built using Langgraph, Groq & Python. It acts as a virtual car salesperson that can provide detailed information about specific Toyota models
 
 ## 🧠 Features
 
@@ -23,71 +23,38 @@ This project is an AI-powered car sales assistant built using [LangGraph](https:
 | **dotenv** | For environment variable management |
 | **IPython** | Used to display formatted markdown responses |
 
-## 🚀 How to Run
+## 🚀 Setup Instructions
 
-1. Clone this repository:
-   ```bash
+## 1. Clone this repository:
+   
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 
+## 2 Create a Virtual Enviroment
+
+     python -m venv venv venv\Scripts\activate
+
+## 3 pip install -r requirements.txt
+     cd your-repo-name
+
+## 4 Install the required packages:
 
 
- 2  pip install -r requirements.txt
- cd your-repo-name
+      pip install -r requirements.txt
 
-3 Install the required packages:
+## Set your environment variable:
+     Create a .env file in the root directory:
 
-bash
-Copy
-Edit
-4 pip install -r requirements.txt
-Set your environment variable:
-Create a .env file in the root directory:
+    GROQ_API_KEY=your_groq_api_key_here
 
-ini
-Copy
-Edit
-GROQ_API_KEY=your_groq_api_key_here
-Run the script:
+### Run the script:
 
-bash
-Copy
-Edit
 python your_script_name.py
-Example usage:
 
-python
-Copy
-Edit
-run_agent("i want to buy tundra")
-🧪 Example Output
+Example usage: run_agent("i want to buy tundra")
+🧪 Example Output 
 Input: i want to buy tundra
 Output: A full description of the Toyota Tundra including engine options, towing capacity, off-road features, reliability, and resale value.
 
-👤 Author
-Nagavardhan Battu
-🔗 GitHub
-🛠 Open to contributions and feedback!
 
-📄 License
-This project is licensed under the MIT License.
 
-markdown
-Copy
-Edit
-
----
-
-### ✅ To Finalize:
-
-1. Replace placeholders like:
-   - `https://github.com/your-username/your-repo-name.git`
-   - `your_script_name.py`
-   - `your_groq_api_key_here`
-   - `https://github.com/your-username`
-
-2. Add `requirements.txt` file if not already present. It should include:
-   ```txt
-   langgraph
-   python-dotenv
-   ipython
