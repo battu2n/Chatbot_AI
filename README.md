@@ -25,69 +25,36 @@ This project is an AI-powered car sales assistant built using [LangGraph](https:
 
 ## 🚀 How to Run
 
-1. Clone this repository:
-   ```bash
+# 1. Clone this repository:
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 
-
-
- 2  pip install -r requirements.txt
+## 2  pip install -r requirements.txt
  cd your-repo-name
 
-3 Install the required packages:
+## 3 Install the required packages:
 
-bash
-Copy
-Edit
-4 pip install -r requirements.txt
+## 4 pip install -r requirements.txt
 Set your environment variable:
+
 Create a .env file in the root directory:
 
-ini
-Copy
-Edit
 GROQ_API_KEY=your_groq_api_key_here
-Run the script:
 
-bash
-Copy
-Edit
+## Run the script:
+
 python your_script_name.py
 Example usage:
-
-python
-Copy
-Edit
 run_agent("i want to buy tundra")
+
 🧪 Example Output
 Input: i want to buy tundra
 Output: A full description of the Toyota Tundra including engine options, towing capacity, off-road features, reliability, and resale value.
 
-👤 Author
-Nagavardhan Battu
-🔗 GitHub
-🛠 Open to contributions and feedback!
 
-📄 License
-This project is licensed under the MIT License.
-
-markdown
-Copy
-Edit
 
 ---
 
-### ✅ To Finalize:
 
-1. Replace placeholders like:
-   - `https://github.com/your-username/your-repo-name.git`
-   - `your_script_name.py`
-   - `your_groq_api_key_here`
-   - `https://github.com/your-username`
 
-2. Add `requirements.txt` file if not already present. It should include:
-   ```txt
-   langgraph
-   python-dotenv
-   ipython
+
